@@ -1,10 +1,10 @@
 # Plumbr
 
-Prevent Code Leakage from your organization
+Prevent Code Leakage from your organization through the use of this application!
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+To get started clone this repository and install any python dependencies using `pip install -r requirements.txt`
 
 ### Prerequisites
 
@@ -34,23 +34,7 @@ End with an example of getting some data out of the system or using it for a lit
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+There are no unit tests for this project yet!
 
 ## Deployment
 
@@ -58,9 +42,9 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Python](https://www.python.org/) - Programming Language Used
+* [Flask](flask.pocoo.org/) - Python Web Micro framework
+* [Pip](https://pypi.org/project/pip/) - Dependency Management
 
 ## Contributing
 
@@ -82,6 +66,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* Flask for making a great microframework!
