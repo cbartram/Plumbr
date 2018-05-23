@@ -1,12 +1,10 @@
-from src.PlumberApp import Plumber
+from src.Plumber import Plumber
 
 nanoleaf = Plumber('cbartram', 'nanoleaf-layout')
 bot = Plumber('cbartram', 'rsps-bot')
 
 nanoleaf.build()
+nanoleaf.display()
 bot.build()
 
-nanoleaf.display()
-bot.display()
-
-print(nanoleaf.get_nodes())
+print(nanoleaf.diff(bot.get_root()))
